@@ -1,0 +1,19 @@
+class sample {
+static void demo(){
+try{
+System.out.println("inside demo ");
+throw new NullpointerException (" jhfkas");
+}
+catch (NullpointerException e)
+{
+System.out.println(e);
+}
+}
+}
+class demothrow{
+public static void  main (String args[])
+{
+sample.demo();
+}
+}
+ 
